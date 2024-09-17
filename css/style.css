@@ -111,7 +111,7 @@ body {
 .hero__years {
     text-align: right;
     margin-bottom: 22px;
-    font-size: 40px;
+    font-size: 20px;
     font-family: "Prata", serif;
 }
 
@@ -120,18 +120,6 @@ body {
 .childhood-content {
     display: flex;
     padding-top: 65px;
-}
-
-.childhood-content-note {
-    width: 264px;
-    /* background-color: rgb(201, 201, 201); */
-    padding-top: 138px;
-    line-height: 150%;
-    font-size: var(--font-text-note);
-}
-
-.number {
-    margin-bottom: 5px;
 }
 
 .text {
