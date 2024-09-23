@@ -318,7 +318,7 @@ body {
 }
 
 .personal-life__text {
-    width: 70%; 
+    width: 70%;
     margin-right: 30px;
     padding-left: 80px;
 }
@@ -326,9 +326,10 @@ body {
 .personal-life-title {
     font-size: 70px;
     font-family: "Prata", serif;
-    width: 100%; 
+    width: 100%;
     padding-bottom: 80px;
     letter-spacing: 0.1em;
+    word-spacing: normal;
     line-height: 1.2;
 }
 
@@ -336,15 +337,20 @@ body {
     width: 30%;
     margin-top: 0;
     padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .personal-img {
     width: 100%;
     height: auto;
+    margin-bottom: 20px;
 }
 
 .personal-text {
     margin-bottom: 15px;
+    padding-left: 0;
 }
 
 
