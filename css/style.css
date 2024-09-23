@@ -344,29 +344,23 @@ body {
 }
 
 /* END LIFE */
-
 .end-life {
     padding-bottom: 190px;
 }
 
 .end-life__content {
-    display: flex;
-    /* width: 966px; */
+    display: block; /* Теперь элементы будут располагаться вертикально, а не в ряд */
 }
 
 .end-life__block {
     width: 1080px;
-    /* background-color: rgb(228, 105, 105); */
-    /* display: flex; */
     padding-bottom: 65px;
     padding-top: 110px;
-    /* padding-right: 80px; */
     border-left: 1px rgba(0, 0, 0, 0.3) solid;
 }
 
 .end-text--1 {
     width: 840px;
-    /* padding-bottom: 15px; */
 }
 
 .end-text:not(:last-child) {
@@ -382,30 +376,30 @@ body {
     font-family: "Prata", serif;
     width: 677px;
     padding-bottom: 80px;
-    letter-spacing: 10%;
+    letter-spacing: 0.1em;
     padding-left: 80px;
     line-height: 1.2;
 }
 
-
 .end-life__img {
-    display: flex;
-    /* margin-bottom: 65px; */
+    display: block;
+    margin-top: 30px;
 }
 
 .end-img__block {
-    width: 966px;
-    border-left: 1px rgba(0, 0, 0, 0.3) solid;
-}
-
-.end-img {
+    width: 840px;
     padding-left: 80px;
 }
 
-.end-img-text {
-    text-align: right;
-    font-size: var(--font-text-note);
+.end-img {
+    width: 100%; 
+    height: auto;
 }
+
+.end-text {
+    font-size: 16px;
+}
+
 
 /* DEATH */
 .end-life__death {
