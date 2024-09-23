@@ -123,7 +123,7 @@ body {
 
 .childhood-content {
     display: flex;
-    padding-top: 65px;
+    padding-top: 30px;
 }
 
 
@@ -136,7 +136,7 @@ body {
 }
 
 .childhood-content-father {
-    width: 1500px;
+    width: 1080px;
     /* background-color: rgb(228, 105, 105); */
     display: flex;
     padding-bottom: 65px;
@@ -156,7 +156,7 @@ body {
 }
 
 .childhood-text {
-    width: 1080px;
+    width: 860px;
     padding-left: 80px;
     padding-bottom: 15px;
     font-size: var(--font-text-article);
@@ -204,62 +204,6 @@ body {
     margin-left: 80px;
 }
 
-/* Taganrog */
-.taganrog__content {
-    display: flex;
-}
-
-.taganrog__content-note {
-    width: 264px;
-    /* background-color: rgb(201, 201, 201); */
-    padding-top: 138px;
-    font-size: var(--font-text-note);
-}
-
-
-.taganrog__content-text {
-    width: 966px;
-    border-left: 1px rgba(0, 0, 0, 0.3) solid;
-    padding-top: 110px;
-    
-}
-
-.taganrog-title {
-    text-transform: uppercase;
-    font-size: var(--font-subtitle-article);
-    font-family: "Prata", serif;
-    padding-left: 80px;
-    padding-bottom: 80px;
-}
-
-.taganrog-text__year {
-    padding-left: 80px;
-    padding-bottom: 65px;
-}
-
-.taganrog-year {
-    font-size: var(--font-date-article);
-    font-family: "Prata", serif;
-    padding-bottom: 25px;
-}
-
-.taganrog-text {
-    line-height: 150%;
-}
-
-.taganrog-gymnasium {
-    padding-left: 80px;
-}
-
-.gumnasium {
-    padding-bottom: 10px;
-}
-
-.gumnasium-note {
-    font-size: var(--font-text-note);
-    text-align: right;
-}
-
 /* dates block */
 
 .dates__content {
@@ -270,6 +214,7 @@ body {
     width: 264px;
     /* background-color: rgb(201, 201, 201); */
     padding-top: 138px;
+    padding-left: 30px;
     font-size: var(--font-text-note);
 }
 
@@ -323,7 +268,7 @@ body {
     font-size: 70px;
     font-family: "Prata", serif;
     margin-bottom: 80px;
-    letter-spacing: 10%;
+    letter-spacing: 40%;
     padding-left: 80px;
 }
 
@@ -333,7 +278,7 @@ body {
 }
 
 .creation-content__block {
-    width: 966px;
+    width: 1080px;
     border-left: 1px rgba(0, 0, 0, 0.3) solid;
     padding-top: 110px;
 }
@@ -368,121 +313,6 @@ body {
     margin-bottom: 65px;
 }
 
-/* FAVORITES */
-
-.fav-content {
-    display: flex;
-}
-
-.fav-content-note {
-    width: 264px;
-    /* background-color: rgb(201, 201, 201); */
-    padding-top: 360px;
-    /* top: 150%; */
-    font-size: var(--font-text-note);
-    /* margin-right: 80px; */
-}
-
-.fav-list {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    font-size: var(--font-book-date);
-    font-family: "Prata", serif;
-    /* text-align: center; */
-}
-
-.years-list__year {
-    margin-left: 20px;
-}
-
-.years-list > hr {
-    width: 427px;
-}
-
-.works-list__item {
-    margin-left: 113px;
-}
-
-.fav-content__block {
-    width: 966px;
-    /* background-color: rgb(228, 105, 105); */
-    /* display: flex; */
-    padding-bottom: 65px;
-    padding-top: 110px;
-    /* padding-right: 80px; */
-    border-left: 1px rgba(0, 0, 0, 0.3) solid;
-}
-
-.fav-content__container {
-    width: 966px;
-    padding-left: 80px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.fav-content-title {
-    padding-left: 80px;
-    text-transform: uppercase;
-    font-size: var(--font-subtitle-article);
-    font-family: "Prata", serif;
-    margin-bottom: 80px;
-}
-
-/* fav plays */
-
-.plays-content {
-    display: flex;
-}
-
-.plays-content-note {
-    width: 264px;
-    /* background-color: rgb(201, 201, 201); */
-    padding-top: 90px;
-    /* top: 150%; */
-    font-size: var(--font-text-note);
-}
-
-.plays-content__block {
-    width: 966px;
-    /* background-color: rgb(228, 105, 105); */
-    /* display: flex; */
-    padding-bottom: 65px;
-    padding-top: 110px;
-    /* padding-right: 80px; */
-    border-left: 1px rgba(0, 0, 0, 0.3) solid;
-}
-
-.plays-content__container {
-    width: 966px;
-    padding-left: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.plays-content-title {
-    padding-left: 80px;
-    text-transform: uppercase;
-    font-size: var(--font-subtitle-article);
-    font-family: "Prata", serif;
-    margin-bottom: 80px;
-}
-
-.plays-list {
-    font-size: var(--font-book-date);
-    font-family: "Prata", serif;
-}
-
-.plays-year {
-    margin-right: 113px;
-    margin-left: 20px;
-}
-
-.plays-list__years > hr {
-    width: 400px;
-}
-
 /* Personal life */
 
 .personal-life__content {
@@ -497,7 +327,7 @@ body {
 }
 
 .personal-life__block {
-    width: 966px;
+    width: 1080px;
     /* background-color: rgb(228, 105, 105); */
     display: flex;
     padding-bottom: 65px;
@@ -507,7 +337,7 @@ body {
 }
 
 .personal-life__text {
-    width: 432px;
+    width: 840px;
     margin-right: 30px;
     padding-left: 80px;
     
@@ -548,7 +378,7 @@ body {
 }
 
 .end-life__block {
-    width: 966px;
+    width: 1080px;
     /* background-color: rgb(228, 105, 105); */
     /* display: flex; */
     padding-bottom: 65px;
@@ -558,12 +388,7 @@ body {
 }
 
 .end-text--1 {
-    width: 432px;
-    /* padding-bottom: 15px; */
-}
-
-.end-text--2 {
-    width: 426px;
+    width: 840px;
     /* padding-bottom: 15px; */
 }
 
@@ -624,7 +449,7 @@ body {
 
 .death__content {
     display: flex;
-    width: 966px;
+    width: 1080px;
     border-left: 1px rgba(0, 0, 0, 0.3) solid;
     padding-top: 65px;
 }
@@ -634,11 +459,7 @@ body {
 }
 
 .death-text--1 {
-    width: 432px;
-}
-
-.death-text--2 {
-    width: 426px;
+    width: 840px;
 }
 
 .death-text--1 > .death-text {
