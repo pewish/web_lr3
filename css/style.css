@@ -154,45 +154,6 @@ body {
     padding-left: 80px;
 }
 
-.childhood-content-title {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.fav-list {
-    list-style: none;
-    padding-left: 0;
-}
-
-.fav-list__years {
-    margin: 0;
-    padding: 0;
-}
-
-.years-list__item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-.years-list__year {
-    width: 30px;
-    font-weight: bold;
-    margin-right: 10px;
-}
-
-.works-list__item {
-    flex: 1;
-    text-align: justify;
-}
-
-.childhood-content__container {
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
-    padding-top: 20px;
-}
-
 .chidhood-block-img {
     width: 458px;
     margin-left: 20px;
