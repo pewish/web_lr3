@@ -120,6 +120,8 @@ body {
     font-family: "Prata", serif;
 }
 
+/* CHIDHOOD */
+
 .childhood-content {
     display: flex;
     padding-top: 30px;
@@ -139,21 +141,63 @@ body {
     font-size: 70px;
     font-family: "Prata", serif;
     letter-spacing: 0.1em;
+    padding-left: 80px;
     margin-bottom: 55px;
     line-height: 1.2;
 }
 
 .childhood-text {
+    padding-left: 80px;
     padding-bottom: 15px;
-    font-size: 18px;
+    font-size: 18px; /* Размер текста */
     line-height: 1.5;
-    text-align: justify;
+    text-align: justify; /* Выровнять текст по ширине */
 }
 
 .childhood-content__block {
     padding-left: 80px;
 }
 
+.childhood-content-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.fav-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.fav-list__years {
+    margin: 0;
+    padding: 0;
+}
+
+.years-list__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.years-list__year {
+    width: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.works-list__item {
+    flex: 1;
+    text-align: justify;
+}
+
+.childhood-content__container {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    padding-top: 20px;
+}
+
+/* Изображение сбоку от текста */
 .chidhood-block-img {
     width: 458px;
     margin-left: 20px;
