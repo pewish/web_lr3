@@ -151,7 +151,8 @@ body {
 .childhood-title {
     font-size: 70px;
     font-family: "Prata", serif;
-    letter-spacing: 150%;
+    letter-spacing: 10%;
+    word-spacing: normal;
     padding-left: 80px;
     margin-bottom: 55px;
 }
@@ -261,7 +262,8 @@ body {
     font-size: 70px;
     font-family: "Prata", serif;
     margin-bottom: 80px;
-    letter-spacing: 150%;
+    letter-spacing: 10%;
+    word-spacing: normal;
     padding-left: 80px;
 }
 
@@ -326,7 +328,8 @@ body {
     font-family: "Prata", serif;
     width: 722px;
     padding-bottom: 80px;
-    letter-spacing: 150%;
+    letter-spacing: 10%;
+    word-spacing: normal;
 }
 
 .personal-life__img {
@@ -376,8 +379,9 @@ body {
     font-family: "Prata", serif;
     width: 677px;
     padding-bottom: 80px;
-    letter-spacing: 150%;
+    letter-spacing: 10%;
     padding-left: 80px;
+    word-spacing: normal;
 }
 
 .end-life__img {
