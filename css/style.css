@@ -127,18 +127,8 @@ body {
     padding-top: 30px;
 }
 
-
-.text {
-    width: 236px;
-}
-
-.note {
-    margin-bottom: 50px;
-}
-
 .childhood-content-father {
     width: 1080px;
-    /* background-color: rgb(228, 105, 105); */
     display: flex;
     padding-bottom: 65px;
     border-left: 1px rgba(0, 0, 0, 0.3) solid;
@@ -151,8 +141,7 @@ body {
 .childhood-title {
     font-size: 70px;
     font-family: "Prata", serif;
-    letter-spacing: 10%;
-    word-spacing: normal;
+    letter-spacing: 0.1em;
     padding-left: 80px;
     margin-bottom: 55px;
     line-height: 1.2;
@@ -162,50 +151,64 @@ body {
     width: 860px;
     padding-left: 80px;
     padding-bottom: 15px;
-    font-size: var(--font-text-article);
-    line-height: 150%;
+    font-size: 18px; /* Совпадает с основным текстом */
+    line-height: 1.5;
+    text-align: justify;
 }
 
-.childhood-text:last-child() {
-    padding-bottom: 0px;
+.childhood-content__block {
+    padding-left: 80px;
 }
 
-
-.father-img, .family-img {
-    margin-bottom: 10px;
+.childhood-content-title {
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
-.father-img__note {
-    font-size: var(--font-text-note);
+.fav-list {
+    list-style: none;
+    padding-left: 0;
 }
 
-.childhood-content-picture {
-    /* width: 966px; */
+.fav-list__years {
+    margin: 0;
+    padding: 0;
+}
+
+.years-list__item {
     display: flex;
-    
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px; /* Соответствует основному тексту */
+    line-height: 1.5;
 }
 
-.childhood-content-family {
-    width: 1080px;
+.years-list__year {
+    width: 30px;
+    font-weight: bold;
+    margin-right: 10px;
 }
 
-.childhood-block-family {
-    width: 1080px;
-    border-left: 1px rgba(0, 0, 0, 0.3) solid;
+.works-list__item {
+    flex: 1;
+    text-align: justify;
 }
 
-.family-img {
-    margin-left: 80px;
+.childhood-content__container {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    padding-top: 20px;
 }
 
-.family-descr {
-    width: 889px;
-    margin: 0 auto;
-    text-align: left;
-    font-size: var(--font-text-note);
-    line-height: 150%;
-    margin-left: 80px;
+.chidhood-block-img {
+    padding-left: 30px;
 }
+
+.father-img {
+    margin-top: 30px;
+    width: 458px;
+    height: auto;
+}
+
 
 /* dates block */
 
@@ -310,27 +313,12 @@ body {
 }
 
 .personal-life__block {
-    width: 100%;
     display: flex;
+    flex-direction: row;
+    width: 100%;
     padding-bottom: 65px;
     padding-top: 110px;
     border-left: 1px rgba(0, 0, 0, 0.3) solid;
-}
-
-.personal-life__text {
-    width: 70%;
-    margin-right: 30px;
-    padding-left: 80px;
-}
-
-.personal-life-title {
-    font-size: 70px;
-    font-family: "Prata", serif;
-    width: 100%;
-    padding-bottom: 80px;
-    letter-spacing: 0.1em;
-    word-spacing: normal;
-    line-height: 1.2;
 }
 
 .personal-life__img {
@@ -338,6 +326,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    padding-right: 30px;
 }
 
 .personal-img {
@@ -346,9 +335,22 @@ body {
     margin-bottom: 20px;
 }
 
+.personal-life__text {
+    width: 70%;
+    padding-left: 0;
+}
+
+.personal-life-title {
+    font-size: 70px;
+    font-family: "Prata", serif;
+    padding-bottom: 80px;
+    letter-spacing: 0.1em;
+    word-spacing: normal;
+    line-height: 1.2;
+}
+
 .personal-text {
     margin-bottom: 15px;
-    padding-left: 0;
 }
 
 
