@@ -120,8 +120,6 @@ body {
     font-family: "Prata", serif;
 }
 
-/* CHIDHOOD */
-
 .childhood-content {
     display: flex;
     padding-top: 30px;
@@ -141,17 +139,15 @@ body {
     font-size: 70px;
     font-family: "Prata", serif;
     letter-spacing: 0.1em;
-    padding-left: 80px;
     margin-bottom: 55px;
     line-height: 1.2;
 }
 
 .childhood-text {
-    padding-left: 80px;
     padding-bottom: 15px;
-    font-size: 18px; /* Размер текста */
+    font-size: 18px;
     line-height: 1.5;
-    text-align: justify; /* Выровнять текст по ширине */
+    text-align: justify;
 }
 
 .childhood-content__block {
@@ -168,11 +164,6 @@ body {
     padding-left: 0;
 }
 
-.fav-list__years {
-    margin: 0;
-    padding: 0;
-}
-
 .years-list__item {
     display: flex;
     align-items: center;
@@ -187,11 +178,6 @@ body {
     margin-right: 10px;
 }
 
-.works-list__item {
-    flex: 1;
-    text-align: justify;
-}
-
 .childhood-content__container {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
     padding-top: 20px;
@@ -200,7 +186,7 @@ body {
 /* Изображение сбоку от текста */
 .chidhood-block-img {
     width: 458px;
-    margin-left: 20px;
+    margin-left: 20px; /* Отступ слева от изображения */
 }
 
 .father-img {
@@ -408,8 +394,10 @@ body {
     font-size: 16px;
 }
 
+/*ЗАКЛЮЧЕНИЕ*/
+
 .conclusion {
-    padding: 60px 0;
+    padding: 10px 0;
 }
 
 .conclusion-title {
@@ -417,7 +405,7 @@ body {
     font-family: "Prata", serif;
     letter-spacing: 0.1em;
     margin-bottom: 30px;
-    text-align: center;
+    margin-left: 30px;
 }
 
 .conclusion__content {
