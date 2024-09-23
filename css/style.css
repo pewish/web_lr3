@@ -155,6 +155,7 @@ body {
     word-spacing: normal;
     padding-left: 80px;
     margin-bottom: 55px;
+    line-height: 1.2;
 }
 
 .childhood-text {
@@ -265,6 +266,7 @@ body {
     letter-spacing: 10%;
     word-spacing: normal;
     padding-left: 80px;
+    line-height: 1.2;
 }
 
 .creation-content {
@@ -330,6 +332,7 @@ body {
     padding-bottom: 80px;
     letter-spacing: 10%;
     word-spacing: normal;
+    line-height: 1.2;
 }
 
 .personal-life__img {
@@ -381,8 +384,9 @@ body {
     padding-bottom: 80px;
     letter-spacing: 10%;
     padding-left: 80px;
-    word-spacing: normal;
+    line-height: 1.2;
 }
+
 
 .end-life__img {
     display: flex;
