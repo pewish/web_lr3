@@ -164,6 +164,11 @@ body {
     padding-left: 0;
 }
 
+.fav-list__years {
+    margin: 0;
+    padding: 0;
+}
+
 .years-list__item {
     display: flex;
     align-items: center;
@@ -178,15 +183,19 @@ body {
     margin-right: 10px;
 }
 
+.works-list__item {
+    flex: 1;
+    text-align: justify;
+}
+
 .childhood-content__container {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
     padding-top: 20px;
 }
 
-/* Изображение сбоку от текста */
 .chidhood-block-img {
     width: 458px;
-    margin-left: 20px; /* Отступ слева от изображения */
+    margin-left: 20px;
 }
 
 .father-img {
