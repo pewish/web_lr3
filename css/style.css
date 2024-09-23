@@ -349,6 +349,17 @@ body {
     margin-bottom: 15px;
 }
 
+.image-container {
+    display: flex;
+    flex-direction: column; /* Устанавливаем вертикальное направление */
+    align-items: flex-start; /* Выравниваем по левому краю */
+}
+
+.personal-img {
+    margin-bottom: 20px; /* Отступ между изображениями */
+}
+
+
 
 /* END LIFE */
 .end-life {
