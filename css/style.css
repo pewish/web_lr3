@@ -323,8 +323,9 @@ body {
 }
 
 .personal-life__text {
-    width: 70%; /* Ширина текстового блока */
+    width: 120%; /* Ширина текстового блока */
     margin-right: 30px; /* Отступ справа для текста */
+    margin-left: 20px;
 }
 
 .personal-life-title {
