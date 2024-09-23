@@ -128,16 +128,13 @@ body {
 }
 
 .childhood-content-father {
-    width: 100%; /* Устанавливаем ширину блока в 100% */
     display: flex;
-    padding-bottom: 65px;
-    border-left: 1px rgba(0, 0, 0, 0.3) solid;
-    align-items: flex-start; /* Добавляем, чтобы изображение и текст были выровнены по верхнему краю */
+    align-items: flex-start;
 }
 
 .childhood-block-text {
-    width: 65%; /* Ширина текстового блока */
-    padding-right: 30px; /* Отступ справа для текста */
+    flex: 1;
+    padding-right: 20px;
 }
 
 .childhood-title {
@@ -202,14 +199,12 @@ body {
 
 /* Изображение сбоку от текста */
 .chidhood-block-img {
-    width: 35%; /* Ширина блока изображения */
-    padding-left: 30px; /* Отступ слева для изображения */
+    width: 458px;
 }
 
 .father-img {
-    width: 100%; /* Изображение растягивается на весь блок */
-    height: auto; /* Высота изображения авто для сохранения пропорций */
-    object-fit: contain;
+    max-width: 100%;
+    height: auto;
 }
 
 
